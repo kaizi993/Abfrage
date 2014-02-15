@@ -17,7 +17,7 @@ namespace NotenDLL
             sourceFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/kaizi99/NotenLibrary/";
             file = sourceFolder + "settings.settings";
 
-            if(!Directory.Exists(file))
+            if(!Directory.Exists(sourceFolder))
             {
                 setup();
             }
