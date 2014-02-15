@@ -22,7 +22,7 @@ namespace NotenDLL
         private void loadSettings()
         {
             //AppData Folder einstellen
-            sourceFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/kaizi99/";
+            sourceFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/kaizi99/NotenLibrary/";
 
             //Datei auswählen
             file = sourceFolder + "settings.settings";

@@ -14,8 +14,8 @@ namespace NotenDLL
 
         public Class1()
         {
-            settings = new Settings();
             firstStart = new FirstStart();
+            settings = new Settings();
         }
 
         public int noteBerechnen(int prozent)
